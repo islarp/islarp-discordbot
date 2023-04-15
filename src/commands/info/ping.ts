@@ -3,7 +3,7 @@ import { ExtendedEmbedBuilder, Type } from '../../structures/Embed';
 
 export default new Command({
   name: 'ping',
-  description: "replies with Clara's latency",
+  description: "replies with isla's latency",
   run: async ({ interaction }) => {
     const time = Date.now();
     await interaction.reply({
