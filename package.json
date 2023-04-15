@@ -1,7 +1,7 @@
 {
-  "name": "discordjs-typescript-prisma",
+  "name": "Isla Roleplay - Discord Bot",
   "version": "1.0.0",
-  "description": "Discord Bot Template using Discord.JS, TypeScript and Prisma",
+  "description": "Discord Bot to Isla Roleplay server.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -12,19 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TryLooney/discordjs-typescript-prisma.git"
+    "url": "git+https://github.com/islarp/discordbot.git"
   },
   "keywords": [
     "discord.js",
     "discord bot template",
     "template bot"
   ],
-  "author": "Luis F. <try.looney@gmail.com> (https://looney.vercel.app/)",
+  "author": "Tiago S. <tmfv.silva@gmail.com> (https://github.com/otiaguh)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TryLooney/discordjs-typescript-prisma/issues"
+    "url": "https://www.islarp.com/report"
   },
-  "homepage": "https://github.com/TryLooney/discordjs-typescript-prisma#readme",
+  "homepage": "https://github.com/islarp/discordbot#readme",
   "dependencies": {
     "@prisma/client": "^4.8.1",
     "discord.js": "^14.7.1",

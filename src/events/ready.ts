@@ -1,5 +1,5 @@
 import { Event } from '../structures/Event';
 
 export default new Event('ready', () => {
-  console.log('Bot is now online.');
+  console.log("[ISLA-RP] Isla RP BOT está agora online.");
 });

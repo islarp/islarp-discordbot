@@ -6,5 +6,5 @@ process.on('uncaughtException', (error) => {
 });
 
 export default new Event('error', (error) => {
-  console.log('aaaaaaaaa');
+  console.log('Something went wrong...');
 });
