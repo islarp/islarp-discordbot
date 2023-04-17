@@ -34,7 +34,7 @@ export default new Command({
 
 		const say_modal = new ModalBuilder({
 			customId: "say-command-modal",
-			title: "Comando /say:",
+			title: "Isla RP - Say",
 		});
 
 		const title_input = new ActionRowBuilder<TextInputBuilder>({
