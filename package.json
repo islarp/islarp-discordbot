@@ -1,5 +1,5 @@
 {
-  "name": "Isla Roleplay - Discord Bot",
+  "name": "islarp-discordbot",
   "version": "1.0.0",
   "description": "Discord Bot to Isla Roleplay server.",
   "main": "dist/index.js",
