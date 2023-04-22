@@ -2,16 +2,18 @@ import { Command } from "../../structures/Command";
 import { ExtendedEmbedBuilder, Type } from "../../structures/Embed";
 
 export default new Command({
-	name: "help",
-	description: "Comando para listar todas as funções e comandos do nosso BOT.",
+	name: "regras",
+	description: "Comando para listar todas as regras do servidor.",
 	run: async ({ interaction }) => {
 		await interaction.reply({
 			ephemeral: true,
 			embeds: [
 				new ExtendedEmbedBuilder()
-					.setTitle("Precisa de ajuda? Estou aqui!")
+					.setTitle(
+						"Aqui está onde você pode encontrar todas as regras do servidor!"
+					)
 					.setDescription(
-						"\n/social - Aqui você pode verificar todos os nossos links de mídias sociais como:\nTikTok, Youtube, Twitter, Instagram.\n/regras - Aqui você pode encontrar o link para acessar todas as regras do servidor."
+						"\nPara acessar todas as regras do servidor incluindo as do discord acesse https://islarp.com/rules."
 					)
 					.setType(Type.Info)
 					.setFooter({
